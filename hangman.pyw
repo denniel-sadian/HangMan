@@ -1,6 +1,8 @@
 """
 An original design of Denniel Luis Saway Sadian
 Date: July 16, 2017
+
+Update your python to the latest version
 """
 
 from tkinter import *
@@ -545,7 +547,7 @@ class HangMan(ttk.Notebook):
                                                     pady='20 0')
         ttk.Label(self.p2, text='About:').grid(column=3, row=8,
                                                columnspan=2, pady='20 0')
-        ttk.Label(self.p2, text='This game is originally written by '
+        ttk.Label(self.p2, text='This game was originally written by '
                                 'Denniel Luis Saway Sadian. '
                                 'July 16, 2017').grid(
             column=4, row=9, columnspan=5)
